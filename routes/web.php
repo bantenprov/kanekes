@@ -1,17 +1,17 @@
 <?php
 
 Route::get('/', function () {
-    return view('home');
+    return view('landing-page');
 });
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('admin', function () {
+    return view('admin');
 });
 
-Route::get('/disclaimer', function () {
-    return view('disclaimer');
+Route::get('login', function () {
+    return view('auth.login');
 });
 
-Route::get('/terms-of-use', function () {
-    return view('terms-of-use');
+Route::get('register', function () {
+    return view('auth.register');
 });

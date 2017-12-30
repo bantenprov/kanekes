@@ -1,0 +1,242 @@
+//
+// Page wrapper
+//
+
+.admin-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+//
+// Content wrapper
+//
+
+.admin-content-wrap {
+  position: relative;
+  margin-top: $admin-navbar-height;
+  transition: all .25s ease-out;
+
+  @include media-breakpoint-up(sm) {
+    & {
+      margin-left: $admin-sidebar-width;
+    }
+
+    .is-sidebar-hidden & {
+      margin-left: 0;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    & {
+      left: 0;
+      margin-left: 0;
+    }
+
+    .is-sidebar-hidden & {
+      left: $admin-sidebar-width;
+    }
+  }
+}
+
+//
+// Sidebar
+//
+
+.admin-sidebar-wrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1030;
+  width: $admin-sidebar-width;
+  background-color: #151515;
+  transition: all .25s ease-out;
+
+  @include media-breakpoint-up(sm) {
+    & {
+      left: 0;
+    }
+
+    .is-sidebar-hidden & {
+      left: -$admin-sidebar-width;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    & {
+      left: -$admin-sidebar-width;
+    }
+
+    .is-sidebar-hidden & {
+      left: 0;
+    }
+  }
+}
+
+.admin-sidebar {
+  .admin-sidebar-user {
+    height: $admin-navbar-height;
+    padding: 1rem;
+    margin-bottom: 0;
+    background-color: #1d80d0;
+
+    h5 {
+      max-width: 134px;
+      color: #fff;
+    }
+    hr {
+      border-top: 2px solid rgba(255,255,255,.45);
+    }
+  }
+
+  .admin-sidebar-nav-wrap {
+    position: fixed;
+    top: $admin-navbar-height;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: $admin-sidebar-width;
+  }
+
+  .nav {
+    .nav-link {
+      padding-top: .75rem;
+      padding-bottom: .75rem;
+      color: #aaa;
+    }
+    .nav-link:hover {
+      color: #fff;
+      background-color: #222;
+    }
+    .nav-link.disabled {
+      pointer-events: none;
+      color: rgba(255,255,255,.25);
+    }
+    .nav-link.active {
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .nav-link.dropdown-toggle::after {
+      border: 0;
+    }
+    .nav-link.dropdown-toggle.collapsed::after {
+      position: relative;
+      width: auto;
+      height: auto;
+      margin-left: .25rem;
+      font-family: FontAwesome;
+      font-size: 11px;
+      font-weight: bold;
+      content: "\f053";
+    }
+    .nav-link.dropdown-toggle:not(.collapsed)::after {
+      position: relative;
+      width: auto;
+      height: auto;
+      margin-left: .25rem;
+      font-family: FontAwesome;
+      font-size: 11px;
+      font-weight: bold;
+      content: "\f078";
+    }
+
+    .nav {
+      background-color: #282a2b;
+    }
+    .nav .nav-link {
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      background-color: transparent !important;
+    }
+  }
+}
+
+//
+// Navbar
+//
+
+.admin-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1030;
+  height: $admin-navbar-height;
+  transition: all .25s ease-out;
+
+  .admin-navbar-icon-badge {
+    position: relative;
+    display: inline-block;
+
+    .badge {
+      position: absolute;
+      top: -13px;
+      right: -10px;
+      font-size: 9px;
+    }
+  }
+
+  .navbar-nav > .nav-item > .nav-link-icon-badge {
+    padding-right: 18px !important;
+    padding-left: 18px !important;
+  }
+
+  @include media-breakpoint-up(sm) {
+    & {
+      left: $admin-sidebar-width;
+    }
+
+    .is-sidebar-hidden & {
+      left: 0;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    & {
+      left: 0;
+    }
+
+    .is-sidebar-hidden & {
+      left: $admin-sidebar-width;
+    }
+  }
+}
+
+//
+// Main
+//
+
+.admin-main {
+  padding: 1rem;
+  background-color: #fff;
+}
+
+// Title with background
+
+.admin-bg-title {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  background: transparent url(/images/dots_pat.png) center center repeat-x;
+
+  > h1,
+  > h2,
+  > h3,
+  > h4,
+  > h5,
+  > h6 {
+    display: inline-block;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    background-color: #fff;
+  }
+}
+
+// Card + media
+
+.admin-card-media {
+  height: 100%;
+
+  .fa-media-avatar {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,64 @@
+.dengdek {
+  position: relative;
+  border-radius: .25rem;
+
+  @include clearfix();
+}
+
+.dengdek-content,
+.dengdek-image {
+  position: relative;
+  padding: 1rem;
+
+  @include clearfix();
+}
+
+.dengdek-content {
+  .dengdek-title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
+}
+
+.dengdek-image {
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: .5rem;
+    box-shadow: 0 17px 50px rgba(0,0,0,.19);
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .dengdek {
+    margin-top: 250px;
+    margin-bottom: 100px;
+  }
+
+  .dengdek-content,
+  .dengdek-image {
+    float: left;
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .dengdek-content {
+    .dengdek-title {
+      font-size: 3rem;
+    }
+    .lead {
+      font-size: 1.5rem;
+    }
+  }
+
+  .dengdek-image {
+    margin-bottom: -150px;
+
+    img {
+      position: relative;
+      top: -150px;
+    }
+  }
+}

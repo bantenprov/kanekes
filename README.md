@@ -4,16 +4,21 @@ Kanekes is one of laravel base theme for bantenprov application.
 
 ## Release
 
-| Release  | Description             |
-|----------|-------------------------|
-| 0.1.0    | development alpha stage |
-| dev      | development alpha stage |
-| master   | master branch           |
+| Release   | Description                          |
+|-----------|--------------------------------------|
+| v0.1.0    | init project                         |
+| v0.2.0    | add admin page                       |
+| v0.2.1    | enhancement with componen            |
+| v0.3.0    | Add sign-in and sign-up page starter |
+| dev       | experimantal - very unstable         |
+| alpha     | development alpha stage              |
+| master    | master branch                        |
+
 
 ## How to install
 
 ```
-$ composer create-project bantenprov/kanekes "dev-master"
+$ composer create-project bantenprov/kanekes:"0.3.0"
 ```
 
 ### Update config/app.php
@@ -37,9 +42,22 @@ $ composer create-project bantenprov/kanekes "dev-master"
 ```php
 $ php artisan vendor:publish --provider="Eusonlito\LaravelMeta\MetaServiceProvider"
 ```
+### npm
+- install npm in your doc root
+```sh
+$ npm install
+```
+- in your development stage
+```sh
+$ npm run dev
+```
+- in your production stage
+```sh
+$ npm run prod
+```
 
 ## Feature:
 
-- Materialize CSS [dogfalo/materialize](https://github.com/dogfalo/materialize/).
+- Bootstrap [twbs/bootstrap](https://github.com/twbs/bootstrap/).
 - Metatag from [eusonlito/laravel-Meta](https://github.com/eusonlito/laravel-Meta).
 - Schema.org from [spatie/schema-org](https://github.com/spatie/schema-org).
