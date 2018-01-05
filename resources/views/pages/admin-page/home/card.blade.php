@@ -1,4 +1,4 @@
-<div class="admin-bg-title">
+<div class="bg-title">
     <h2>Card</h2>
 </div>
 

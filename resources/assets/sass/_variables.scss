@@ -106,7 +106,7 @@ $progress-border-radius:        0 !default;
 
 // Close
 
-$close-font-size:             34px !default;
+$close-font-size:             2.125rem !default;
 $close-font-weight:           300 !default;
 
 //# Landing page variables ================================
@@ -116,7 +116,7 @@ $close-font-weight:           300 !default;
 //
 
 $landing-header-spacer-y:       4rem !default;
-$landing-header-min-height:     400px !default;
+$landing-header-min-height:     calc(100vh - 160px) !default;
 $landing-header-bg-color:       #333 !default;
 $landing-header-text-color:     #fff !default;
 

@@ -1,4 +1,4 @@
-<section class="landing-section-lg landing-section-5">
+<section class="landing-section-lg" id="landing-section-6">
     <div class="container">
         <h2 class="landing-section-title text-center">Gallery</h2>
         <div class="row">

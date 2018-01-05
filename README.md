@@ -4,6 +4,7 @@ Kanekes is one of laravel base theme for bantenprov application.
 
 ## Release
 
+<<<<<<< HEAD
 | Release   | Description                          |
 |-----------|--------------------------------------|
 | v0.1.0    | init project                         |
@@ -14,6 +15,17 @@ Kanekes is one of laravel base theme for bantenprov application.
 | alpha     | development alpha stage              |
 | master    | master branch                        |
 
+=======
+
+| Release  | Description                  |
+|----------|------------------------------|
+| 0.1.0    | init project                 |
+| 0.2.0    | add admin page               |
+| 0.2.1    | enhancement with componen    |
+| dev      | experimental - very unstable |
+| alpha    | development alpha stage      |
+| master   | master branch                |
+>>>>>>> e8ba71dcc01b70ba51cb3acc9663662f06c8c522
 
 ## How to install
 
