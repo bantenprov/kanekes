@@ -17,7 +17,7 @@ Kanekes is one of laravel base theme for bantenprov application.
 ## How to install
 
 ```
-$ composer create-project bantenprov/kanekes:"0.3.0"
+$ composer create-project bantenprov/kanekes:"0.3.1"
 ```
 
 ### Update config/app.php
