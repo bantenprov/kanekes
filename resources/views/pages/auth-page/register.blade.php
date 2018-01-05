@@ -8,20 +8,14 @@
 
 @section('content')
 <form class="form-auth form-auth-md">
-    <h2 class="form-auth-heading">Daftar</h2>
-    <div class="row">
-        <div class="col-sm form-group">
-            <label for="inputFirstName" class="sr-only">First Name</label>
-            <input type="text" id="inputFirstName" class="form-control" placeholder="First Name" autofocus>
-        </div><!-- /col -->
-        <div class="col-sm form-group">
-            <label for="inputLastName" class="sr-only">Last Name</label>
-            <input type="text" id="inputLastName" class="form-control" placeholder="Last Name">
-        </div><!-- /col -->
-    </div><!-- /.row -->
+    <h2 class="form-auth-heading text-uppercase">Daftar</h2>
     <div class="form-group">
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+        <label for="inputFullName" class="sr-only">Full Name</label>
+        <input type="text" id="inputFullName" class="form-control" placeholder="Full Name" required autofocus>
+    </div><!-- /.form-group -->
+    <div class="form-group">
+        <label for="inputNik" class="sr-only">NIK</label>
+        <input type="text" id="inputNik" class="form-control" placeholder="NIK" required>
     </div><!-- /.form-group -->
     <div class="row">
         <div class="col-sm form-group">

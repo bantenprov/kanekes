@@ -1,3 +1,7 @@
+.landing-page {
+  background-color: #000;
+}
+
 //
 // Header
 //
@@ -107,7 +111,7 @@
 // Section 1
 
 #landing-section-1 {
-  background-image: radial-gradient(circle, #2196f3, #000);
+  background-image: radial-gradient(circle, #ccc, #000);
 }
 
 // Section 2
@@ -148,17 +152,17 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
   font-size: 95%;
-  color: #333;
+  color: #fff;
   text-align: center;
-  background-color: #fff;
+  background-color: #000;
 
   a {
     font-weight: 500;
-    color: #777;
+    color: #aaa;
     text-decoration: none;
 
     &:hover {
-      color: #333;
+      color: #fff;
       text-decoration: underline;
     }
   }

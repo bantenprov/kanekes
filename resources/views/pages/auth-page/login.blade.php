@@ -8,14 +8,14 @@
 
 @section('content')
 <form class="form-auth form-auth-sm">
-    <h2 class="form-auth-heading">Masuk</h2>
+    <h2 class="form-auth-heading text-uppercase">Masuk</h2>
     <div class="form-group">
-        <label for="inputEmail" class="sr-only">Email address</label>
+        <label for="inputNik" class="sr-only">NIK</label>
         <div class="input-group">
             <div class="input-group-prepend">
-                <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                <div class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></div>
             </div>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+            <input type="text" id="inputNik" class="form-control" placeholder="NIK" required autofocus>
         </div>
     </div><!-- /.form-group -->
     <div class="form-group">

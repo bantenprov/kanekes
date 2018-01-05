@@ -1,23 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-        <a class="navbar-brand" href="/">@yield('navbar-title')</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#non">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#non">Link</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/admin">Admin page</a>
-                </li>
-            </ul>
-        </div>
+    <div class="container d-flex flex-row justify-content-center">
+        <a class="navbar-brand text-uppercase m-0 px-2" href="/"><i class="fa fa-users fa-lg" aria-hidden="true"></i><span class="sr-only">Profil</span></a>
     </div>
 </nav>
