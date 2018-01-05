@@ -1,4 +1,4 @@
-<section class="landing-section-xl landing-section-2">
+<section class="landing-section-xl" id="landing-section-2">
     <div class="container">
         <h2 class="landing-section-title text-center">Etimologi</h2>
         <p class="landing-section-description text-center text-muted">Berdasarkan Kamus Besar Bahasa Indonesia, penulisan yang tepat adalah <strong>Badui</strong> dan bukan <strong>Baduy</strong>.</p>

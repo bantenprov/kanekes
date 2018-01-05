@@ -7,11 +7,13 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/bantenprov/kanekes">GitHub</a>
+                    <a class="nav-link" href="#non">Link</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/bantenprov/kanekes/issues">Issues</a>
+                    <a class="nav-link" href="#non">Link</a>
                 </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/admin">Admin page</a>
                 </li>
