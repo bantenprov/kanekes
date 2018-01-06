@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function () {
-    return view('pages.landing-page.home.index');
+    return view('pages.landing-page.index');
 });
 
 Route::get('/admin', function () {
@@ -14,4 +14,8 @@ Route::get('/register', function () {
 
 Route::get('/login', function () {
     return view('pages.auth-page.login');
+});
+
+Route::get('/3-column-example', function () {
+    return view('pages.3-column-example.index');
 });

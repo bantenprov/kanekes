@@ -1,13 +1,21 @@
-@extends('layouts.admin-page')
+@extends('layouts.admin')
 
-{{-- Title --}}
+{{-- Document Title --}}
 
 @section('title', 'Admin')
+
+{{-- Text --}}
+
 @section('navbar-title', 'Kanekes')
 
-{{-- Content --}}
+{{-- Sections --}}
 
-@section('content')
+@section('navbar_and_sidebar')
+	@include('pages.admin-page.navbar')
+	@include('pages.admin-page.sidebar')
+@endsection
+
+@section('main_content')
 	@include('pages.admin-page.home.alert')
 	@include('pages.admin-page.home.card-media')
 	@include('pages.admin-page.home.mumbul')
