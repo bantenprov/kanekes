@@ -7,7 +7,7 @@
 
 		@yield('section_top')
 		
-        <main class="@yield('main_class')">
+        <main>
             @yield('main_content')
         </main>
 		

@@ -7,7 +7,6 @@
 {{-- Classes --}}
 
 @section('body_class', 'landing-page')
-@section('main_class', 'landing-main')
 
 {{-- Text --}}
 
