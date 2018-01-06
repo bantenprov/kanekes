@@ -12,10 +12,15 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('fonts/font-awesome/css/font-awesome.min.css') }}">
     </head>
-    <body class="auth-page">
-        <div class="container">
-            @yield('content')
-        </div>
+    <body class="@yield('body_class')">
+
+		@yield('section_top')
+		
+        <main class="@yield('main_class')">
+            @yield('main_content')
+        </main>
+		
+		@yield('section_bottom')
 
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
