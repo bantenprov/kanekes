@@ -23,7 +23,7 @@
 					</a>
 					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
 						<a class="dropdown-item" href="#">1 Column</a>
-						<a class="dropdown-item" href="#">2 Column (left sidebar)</a>
+						<a class="dropdown-item" href="/2-column-left-example">2 Column (left sidebar)</a>
 						<a class="dropdown-item" href="#">2 Column (right sidebar)</a>
 						<a class="dropdown-item" href="/3-column-example">3 Column</a>
 					</div>

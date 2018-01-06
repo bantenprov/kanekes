@@ -19,3 +19,7 @@ Route::get('/login', function () {
 Route::get('/3-column-example', function () {
     return view('pages.3-column-example.index');
 });
+
+Route::get('/2-column-left-example', function () {
+    return view('pages.2-column-left-example.index');
+});
