@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
+    <div class="container-fluid">
         <a class="navbar-brand" href="/">@yield('navbar-title')</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -11,11 +11,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#non">Link</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/admin">Admin page</a>
                 </li>
             </ul>
         </div>

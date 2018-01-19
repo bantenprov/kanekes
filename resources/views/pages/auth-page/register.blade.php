@@ -1,4 +1,4 @@
-@extends('layouts.auth-page')
+@extends('layouts.auth')
 
 {{-- Title --}}
 
