@@ -2,7 +2,7 @@
 
 {{-- Document Title --}}
 
-@section('title', 'Kanekes')
+@section('title', 'Portal Satu Data Banten')
 
 {{-- Classes --}}
 
@@ -10,9 +10,9 @@
 
 {{-- Text --}}
 
-@section('navbar-title', 'Kanekes')
-@section('header-title', 'Kanekes Theme')
-@section('header-description', 'A Starter Theme for Laravel.')
+@section('navbar-title', 'Banten Satu Data')
+@section('header-title', 'Banten Satu Data')
+@section('header-description', 'Data Banten Dalam Satu Portal.')
 
 {{-- Sections --}}
 
@@ -23,11 +23,11 @@
 
 @section('main_content')
 	@include('pages.landing-page.section-1')
+	@include('pages.landing-page.section-3') 
 	@include('pages.landing-page.section-2')
-	@include('pages.landing-page.section-3')
-	@include('pages.landing-page.section-4')
+	{{-- @include('pages.landing-page.section-4')
 	@include('pages.landing-page.section-5')
-	@include('pages.landing-page.section-6')
+	@include('pages.landing-page.section-6') --}}
 @endsection
 
 @section('section_bottom')
