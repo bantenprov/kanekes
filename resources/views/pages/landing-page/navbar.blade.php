@@ -1,16 +1,36 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-        <a class="navbar-brand" href="/">@yield('navbar-title')</a>
+        <a class="navbar-brand" href="/">
+        <img src="{{ asset('assets/images/satudatabanten.png') }}" alt="satudata">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#non">Link</a>
+                    <a class="nav-link" href="#non">DATA
+                </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#non">Link</a>
+                    <a class="nav-link" href="#non">VISUALISASI
+                </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#non">APLIKASI
+                </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#non">TENTANG
+                </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#non">ARTIKEL
+                </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#non">TOOLKIT
+                </a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">

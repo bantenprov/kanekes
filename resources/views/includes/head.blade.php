@@ -8,3 +8,5 @@
 
 <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 <link rel="stylesheet" href="{{ asset('fonts/font-awesome/css/font-awesome.min.css') }}">
+<!-- Animation Style -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/stylesheets/animate.css') }}">

@@ -5,6 +5,6 @@
             <li><a href="https://github.com/bantenprov/kanekes">GitHub</a></li>
             <li><a href="https://github.com/bantenprov/kanekes/issues">Issues<a></li>
         </ul>
-        <p><i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="https://github.com/bantenprov">@bantenprov</a></p>
+        <p><i class="fa fa-code"></i> Kanekes Theme with <i class="fa fa-heart"></i> by <a href="https://github.com/bantenprov">@bantenprov</a></p>
     </div>
 </footer>
