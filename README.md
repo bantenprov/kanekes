@@ -6,23 +6,23 @@ Kanekes is one of laravel base theme for bantenprov application.
 
 ## Release
 
-| Release         | Description                                   |
-|-----------------|-----------------------------------------------|
-| v0.1.0          | init project                                  |
-| v0.2.0          | add admin page                                |
-| v0.2.1          | enhancement with componen                     |
-| v0.3.0          | Add sign-in and sign-up page starter          |
-| v0.3.1          | Redesign login and register page              |
-| v0.3.2          | Redesign layout and head                      |
-| satudata0.3.2.1 | Init project Kanekes Banten Satu Data version |
-| dev             | experimantal - very unstable                  |
-| alpha           | development alpha stage                       |
-| master          | master branch                                 |
+| Release  | Description                                   |
+|----------|-----------------------------------------------|
+| v0.1.0   | init project                                  |
+| v0.2.0   | add admin page                                |
+| v0.2.1   | enhancement with componen                     |
+| v0.3.0   | Add sign-in and sign-up page starter          |
+| v0.3.1   | Redesign login and register page              |
+| v0.3.2   | Redesign layout and head                      |
+| v0.3.2.1 | Init project Kanekes Banten Satu Data version |
+| dev      | experimantal - very unstable                  |
+| alpha    | development alpha stage                       |
+| master   | master branch                                 |
 
 ## How to install
 
 ```
-$ composer create-project bantenprov/kanekes:"satudata0.3.2.1"
+$ composer create-project bantenprov/kanekes:"v0.3.2.1"
 ```
 
 ### Update config/app.php
