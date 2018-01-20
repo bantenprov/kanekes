@@ -1,0 +1,72 @@
+.mumbul {
+  position: relative;
+  display: block;
+  z-index: 1;
+  overflow: hidden;
+  min-height: 250px;
+  text-align: center;
+  transition: all .3s;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+
+  &:hover {
+    z-index: 2;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,.25), 0 17px 50px 0 rgba(0,0,0,.20);
+  }
+}
+
+a.mumbul {
+  text-decoration: none;
+}
+
+.mumbul-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  .mumbul-header {
+    transition: all .25s ease-out;
+
+    .mumbul-icon {
+      font-size: 3rem;
+    }
+    .mumbul-title {
+      margin-top: .75rem;
+      margin-bottom: 0;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+  }
+
+  .mumbul-description {
+    position: absolute;
+    right: 0;
+    bottom: -75px;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 75px;
+    padding: 25px .75rem;
+    margin: 0;
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    transition: all .25s ease-out;
+  }
+}
+
+.mumbul:hover {
+  .mumbul-header {
+    transform: translate3d(0,0,0) translate3d(0,-50px,0);
+  }
+  .mumbul-description {
+    bottom: 0;
+  }
+}
